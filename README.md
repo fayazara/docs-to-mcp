@@ -37,7 +37,6 @@ A Cloudflare Worker that turns any AI Search (AutoRAG) instance into an MCP serv
 | Endpoint | Transport       | Description                  |
 | -------- | --------------- | ---------------------------- |
 | `/mcp`   | Streamable HTTP | Standard MCP HTTP transport  |
-| `/sse`   | SSE             | Server-Sent Events transport |
 
 ### How did I test this.
 
@@ -88,6 +87,3 @@ https://your-worker.workers.dev/mcp
 ```bash
 npm run dev
 ```
-
-Note: Local development proxies AI Search requests to your deployed instance.
-# docs-to-mcp
